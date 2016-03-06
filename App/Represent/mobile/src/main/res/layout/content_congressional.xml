@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.taitgu.represent.Congressional"
+    tools:showIn="@layout/activity_congressional">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Senators and Representatives"
+        android:id="@+id/heading"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="from"
+        android:id="@+id/from"
+        android:layout_below="@+id/heading"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Berkeley, CA 94704"
+        android:id="@+id/location"
+        android:layout_below="@+id/from"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/image3"
+        android:src="@drawable/borock"
+        android:maxWidth="20dp"
+        android:maxHeight="20dp"
+        android:scaleType="fitCenter"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Representative Borock Abama\nParty: Democrat\nEmail:abama@abama.com\nWebsite:abama.com\n@abama: &quot;Not bad @obama&quot;"
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/image3"
+        android:layout_alignEnd="@+id/heading" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/barack"
+        android:maxWidth="20dp"
+        android:maxHeight="20dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/location"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Senator Barack Obama\nParty: Democrat\nEmail:obama@obama.com\nWebsite:obama.com\n@obama: &quot;WE MAJOR 2016&quot;"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignStart="@+id/textView" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageView1"
+        android:src="@drawable/barry"
+        android:maxWidth="20dp"
+        android:maxHeight="20dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Senator Barry Obama\nParty: Democrat\nEmail:barryo@thebarryo.com\nWebsite:thebarryo.com\n@abama: &quot;Shoutout to @obama&quot;"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="more"
+        android:id="@+id/button3"
+        android:textSize="8dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:onClick="loadDetailed"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="more"
+        android:id="@+id/button4"
+        android:textSize="8dp"
+        android:layout_alignBottom="@+id/image3"
+        android:onClick="loadDetailed"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="more"
+        android:id="@+id/button5"
+        android:textSize="8dp"
+        android:layout_alignTop="@+id/imageView1"
+        android:onClick="loadDetailed"
+        android:layout_alignEnd="@+id/button4" />
+
+</RelativeLayout>
