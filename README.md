@@ -1,20 +1,24 @@
 # PROG 02: Represent!
 
-Briefly describe your app here.
+Represent! is an Android Mobile & Wear app that allows users to find the senators and house representatives of any location in the United States.
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Tait Gu ([taitgu@berkeley.edu](mailto:taitgu@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [Represent! Video] (https://youtu.be/0rMryU6-MMc)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/MainPhone.png" height="400" alt="Screenshot of the Main Phone View"/>
+<img src="screenshots/CongressionalPhone.png" height="400" alt="Screenshot of the Congressional Phone View"/>
+<img src="screenshots/DetailedPhone.png" height="400" alt="Screenshot of the Detailed Phone View"/>
+<img src="screenshots/OpeningWatch.png" height="400" alt="Screenshot of the Opening Watch View"/>
+<img src="screenshots/MainWatch.png" height="400" alt="Screenshot of the Main Watch View"/>
+<img src="screenshots/VoteWatch.png" height="400" alt="Screenshot of the Vote Watch View"/>
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Any other support
+* Thank you to the kind users of StackOverflow
