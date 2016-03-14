@@ -20,7 +20,6 @@ public class WatchListenerService extends WearableListenerService {
         Intent intent = new Intent(this, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.putExtra("ZIPCODE", value);
-        Log.d("T", "about to start watch MainActivity with CAT_NAME: Fred");
         startActivity(intent);
     }
 }

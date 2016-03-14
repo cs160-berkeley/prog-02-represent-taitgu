@@ -3,6 +3,9 @@
     package="com.example.taitgu.represent">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application
         android:allowBackup="true"
@@ -38,4 +41,7 @@
         </service>
     </application>
 
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyB64SFX7NazuI8M9w6k9THgeYGqWZ22-9g"/>
 </manifest>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Senators and Representatives"
+        android:id="@+id/textView8"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="from"
+        android:id="@+id/textView9"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="94704"
+        android:id="@+id/zipcode"
+        android:layout_gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="357dp"
+        android:layout_height="12dp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.08" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/barack"
+            android:maxWidth="20dp"
+            android:maxHeight="20dp"
+            android:scaleType="fitCenter" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="83dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.87">
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Senator Barack Obama"
+                android:id="@+id/name1"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Democrat"
+                android:id="@+id/party1"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Email"
+                android:id="@+id/email1"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Website"
+                android:id="@+id/website1"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:text="More"
+            android:id="@+id/button"
+            android:onClick="loadDetailed"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="361dp"
+        android:layout_height="12dp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.08" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/barack"
+            android:maxWidth="20dp"
+            android:maxHeight="20dp"
+            android:scaleType="fitCenter" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="83dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.87" >
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Senator Barack Obama"
+                android:id="@+id/textView10"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Democrat"
+                android:id="@+id/party2"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Email"
+                android:id="@+id/email2"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Website"
+                android:id="@+id/website2"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:text="More"
+            android:id="@+id/button2"
+            android:onClick="loadDetailed"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_gravity="center_horizontal">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.08" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageView4"
+            android:src="@drawable/barack"
+            android:maxWidth="20dp"
+            android:maxHeight="20dp"
+            android:scaleType="fitCenter" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="83dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.87" >
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Senator Barack Obama"
+                android:id="@+id/name3"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Democrat"
+                android:id="@+id/party3"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Email"
+                android:id="@+id/email3"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Website"
+                android:id="@+id/website3"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:text="More"
+            android:id="@+id/button6"
+            android:onClick="loadDetailed"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_gravity="center_horizontal" >
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.08" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageView5"
+            android:src="@drawable/barack"
+            android:maxWidth="20dp"
+            android:maxHeight="20dp"
+            android:scaleType="fitCenter" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="83dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.87" >
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Senator Barack Obama"
+                android:id="@+id/name4"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Democrat"
+                android:id="@+id/party4"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Email"
+                android:id="@+id/email4"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Website"
+                android:id="@+id/website4"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:text="More"
+            android:id="@+id/button7"
+            android:onClick="loadDetailed"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_gravity="center_horizontal" >
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.08" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageView6"
+            android:src="@drawable/barack"
+            android:maxWidth="20dp"
+            android:maxHeight="20dp"
+            android:scaleType="fitCenter" />
+
+        <Space
+            android:layout_width="18dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="83dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.87" >
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Senator Barack Obama"
+                android:id="@+id/name5"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Democrat"
+                android:id="@+id/party5"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Email"
+                android:id="@+id/email5"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Website"
+                android:id="@+id/website5"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:text="More"
+            android:id="@+id/button8"
+            android:onClick="loadDetailed"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+</LinearLayout>
