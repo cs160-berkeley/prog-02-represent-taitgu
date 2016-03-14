@@ -15,9 +15,9 @@ See [Represent! Video] (https://youtu.be/0rMryU6-MMc)
 <img src="screenshots/MainPhone.png" height="400" alt="Screenshot of the Main Phone View"/>
 <img src="screenshots/CongressionalPhone.png" height="400" alt="Screenshot of the Congressional Phone View"/>
 <img src="screenshots/DetailedPhone.png" height="400" alt="Screenshot of the Detailed Phone View"/>
-<img src="screenshots/OpeningWatch.png" height="400" alt="Screenshot of the Opening Watch View"/>
-<img src="screenshots/MainWatch.png" height="400" alt="Screenshot of the Main Watch View"/>
-<img src="screenshots/VoteWatch.png" height="400" alt="Screenshot of the Vote Watch View"/>
+<img src="screenshots/OpeningWatch.png" height="250" alt="Screenshot of the Opening Watch View"/>
+<img src="screenshots/MainWatch.png" height="250" alt="Screenshot of the Main Watch View"/>
+<img src="screenshots/VoteWatch.png" height="250" alt="Screenshot of the Vote Watch View"/>
 
 ## Acknowledgments
 
